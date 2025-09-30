@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int n, sum;
+
+    printf("Enter the value of n: ");
+    scanf("%d", &n);
+
+    // Using the formula: sum = n * (n + 1) / 2
+    sum = n * (n + 1) / 2;
+
+    printf("Sum of first %d natural numbers is: %d\n", n, sum);
+
+    return 0;
+}
